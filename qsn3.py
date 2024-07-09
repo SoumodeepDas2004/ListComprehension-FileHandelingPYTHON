@@ -6,6 +6,7 @@ if __name__=='__main__':
         print(list)
         #secondpart of qsn (no5)
         f = open("tables.txt", "a")
+        f.write("the multiplicaion tables is-\n")
         f.write(str(list))
         f.close()
     except ValueError:
